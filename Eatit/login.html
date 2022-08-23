@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="image/eatit.png">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="restaurant.html">Restaurant</a>
+                            </li>
+                        </ul>
+                    </div>    <!--end of collapse navbar-->
+                </div>   <!--end of container-fluid-->
+            </nav>
+        </div>   <!--end of container-->
+        <div class="login">
+            <form id="l-form" onsubmit="alert('You have been login successfully!');">
+                <h2 class="login-tittle">Login</h2>
+                <div class="mb-3">
+                    <label for="InputEmail1" class="form-label">User ID / Email address </label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="InputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    <a class="FPW" href="#">Forgot password?</a>
+                </div>
+                <button class="btn btn-primary" type="submit" ><a class="btn-o" href="myaccount.html">GO</a></button>
+            </form>
+        </div>  <!--end of login-->
+        <footer class="text-center text-lg-start">
+            <div class="text-center text-white p-3">
+                 © 2022 Copyright:
+                <a class="text-white" href="#">KAMAN's Portfolio | EAT IT</a>
+            </div>
+        </footer>
+    </header>
+    
+</body>
+</html>
